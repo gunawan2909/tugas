@@ -5,6 +5,8 @@
  */
 package tugas;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lenovo
@@ -15,7 +17,12 @@ public class Tugas {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner in = new Scanner(System.in);
+        String email,pass;
+        System.out.print("Email    :");
+        email = in.nextLine();
+        System.out.print("Password :");
+        pass = in.nextLine();
     }
     
 }

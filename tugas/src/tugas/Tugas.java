@@ -23,6 +23,10 @@ public class Tugas {
         email = in.nextLine();
         System.out.print("Password :");
         pass = in.nextLine();
+        data user = new data (email,pass);
+        user.login();
+        
+        
     }
     
 }
